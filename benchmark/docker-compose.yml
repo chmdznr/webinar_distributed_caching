@@ -1,0 +1,30 @@
+#version: '3.8'
+
+services:
+  redis:
+    image: redis/redis-stack-server:latest
+    ports:
+      - "6379:6379"
+      - "8001:8001"
+
+  memcached:
+    image: memcached:1.6
+    ports:
+      - "11211:11211"
+
+  valkey:
+    image: valkey/valkey
+    ports:
+      - "6378:6379"
+
+  dragonfly:
+    image: 'docker.dragonflydb.io/dragonflydb/dragonfly'
+    ulimits:
+      memlock: -1
+    ports:
+      - "6377:6379"
+    volumes:
+      - dragonfly_data:/data
+
+volumes:
+  dragonfly_data:

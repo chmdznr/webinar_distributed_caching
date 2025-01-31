@@ -1,0 +1,19 @@
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore environment-specific files
+.env
+.venv/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db

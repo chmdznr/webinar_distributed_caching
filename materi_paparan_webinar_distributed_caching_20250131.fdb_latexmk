@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1738294942.7763 "d:/work/latex/webinar_distributed_caching/materi_paparan_webinar_distributed_caching_20250131.tex" "materi_paparan_webinar_distributed_caching_20250131.pdf" "materi_paparan_webinar_distributed_caching_20250131" 1738294944.85756 2
+["pdflatex"] 1738324898.05287 "d:/work/latex/webinar_distributed_caching/materi_paparan_webinar_distributed_caching_20250131.tex" "materi_paparan_webinar_distributed_caching_20250131.pdf" "materi_paparan_webinar_distributed_caching_20250131" 1738324901.28567 2
   "C:/Users/achma/scoop/apps/latex/current/texmfs/data/fonts/map/pdftex/pdftex.map" 1738284152 528110 23d5c61ff7344f96f2e47fb0657f1f0e ""
   "C:/Users/achma/scoop/apps/latex/current/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1729401095 12668 9c48a784e67ea37e5db70fc23bc0142b ""
   "C:/Users/achma/scoop/apps/latex/current/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730072219 11953054 e0e5f2584eb4b869ab4ea964b53801fb ""
@@ -218,11 +218,11 @@
   "images/cache-invalidation-sequence.png" 1738280388 34550 abf39ad679759c8b688b9be30eb65af4 ""
   "images/sharding-hotkey.png" 1738282950 17529 3f7fb06943e9d232b0a1a48eeceb9ecd ""
   "images/workflow-cache.png" 1738275557 49309 5f115653698d40ab75d9af94e1e21f33 ""
-  "materi_paparan_webinar_distributed_caching_20250131.aux" 1738294944 13119 2e9e8ad5754f9e6b2d88079ebaf75709 "pdflatex"
-  "materi_paparan_webinar_distributed_caching_20250131.lof" 1738294944 897 57a43fbf3ccbcf9f89c1fe6868f84413 "pdflatex"
-  "materi_paparan_webinar_distributed_caching_20250131.out" 1738294944 6429 6173f2aa59695eab927426b14b96b0b5 "pdflatex"
+  "materi_paparan_webinar_distributed_caching_20250131.aux" 1738324900 13119 2e9e8ad5754f9e6b2d88079ebaf75709 "pdflatex"
+  "materi_paparan_webinar_distributed_caching_20250131.lof" 1738324900 897 57a43fbf3ccbcf9f89c1fe6868f84413 "pdflatex"
+  "materi_paparan_webinar_distributed_caching_20250131.out" 1738324900 6429 6173f2aa59695eab927426b14b96b0b5 "pdflatex"
   "materi_paparan_webinar_distributed_caching_20250131.tex" 1738285158 34856 5153ca3b06e7094340d2b659ad2778b9 ""
-  "materi_paparan_webinar_distributed_caching_20250131.toc" 1738294944 3304 9c0ba1b984cb74d96e1db4e5e1c9496f "pdflatex"
+  "materi_paparan_webinar_distributed_caching_20250131.toc" 1738324900 3304 9c0ba1b984cb74d96e1db4e5e1c9496f "pdflatex"
   (generated)
   "_125B72E140CC7636978943BF8271624B.data.minted"
   "materi_paparan_webinar_distributed_caching_20250131.aux"

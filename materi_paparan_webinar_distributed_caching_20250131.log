@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex 2024.10.28)  31 JAN 2025 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex 2024.10.28)  31 JAN 2025 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -717,8 +717,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 116.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count361
 \l__pdf_internal_box=\box100
-)
-No file materi_paparan_webinar_distributed_caching_20250131.aux.
+) (materi_paparan_webinar_distributed_caching_20250131.aux)
 \openout1 = `materi_paparan_webinar_distributed_caching_20250131.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
@@ -739,7 +738,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
 LaTeX Font Info:    ... okay on input line 122.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
 LaTeX Font Info:    ... okay on input line 122.
-(C:\Users\achma\scoop\apps\latex\current\texmfs\install\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\achma\scoop\apps\latex\current\texmfs\install\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count362
 \scratchdimen=\dimen322
@@ -881,7 +880,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \pydata@fh@_125B72E140CC7636978943BF8271624B.data.minted=\write8
 \openout8 = `_125B72E140CC7636978943BF8271624B.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250131104223 125B72E140CC7636978943BF8271624B)...disabled (restricted).
+runsystem(latexminted config  --timestamp 20250131190138 125B72E140CC7636978943BF8271624B)...disabled (restricted).
 
 
 
@@ -1259,10 +1258,10 @@ Package rerunfilecheck Info: Checksums for `materi_paparan_webinar_distributed_c
 (rerunfilecheck)             After:  6173F2AA59695EAB927426B14B96B0B5;6429.
  ) 
 Here is how much of TeX's memory you used:
- 32760 strings out of 473897
- 671369 string characters out of 5721723
- 1368173 words of memory out of 5000000
- 55024 multiletter control sequences out of 15000+600000
+ 32763 strings out of 473897
+ 671589 string characters out of 5721723
+ 1368164 words of memory out of 5000000
+ 55025 multiletter control sequences out of 15000+600000
  566557 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,117p,492b,1562s stack positions out of 10000i,1000n,20000p,200000b,200000s
