@@ -1,0 +1,13 @@
+\babel@toc {bahasa}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Alur kerja sistem dengan caching}}{8}{figure.caption.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Perbandingan Arsitektur Caching Tradisional vs. Distributed}}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Contoh Topologi Distributed Cache dengan 3 Node}}{12}{figure.caption.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Perbandingan Sharded vs. Replicated Cache}}{16}{figure.caption.8}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Contoh Sharding Hot Key \texttt {product\_123}}}{23}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Alur Event-Driven Cache Invalidation}}{24}{figure.caption.12}%
+\addvspace {10\p@ }

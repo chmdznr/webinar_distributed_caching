@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nt}{scrape\PYGZus{}configs}\PYG{p}{:}
+\PYG{+w}{  }\PYG{p+pIndicator}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nt}{job\PYGZus{}name}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{redis}\PYG{l+s}{\PYGZsq{}}
+\PYG{+w}{    }\PYG{n+nt}{static\PYGZus{}configs}\PYG{p}{:}
+\PYG{+w}{      }\PYG{p+pIndicator}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nt}{targets}\PYG{p}{:}\PYG{+w}{ }\PYG{p+pIndicator}{[}\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{redis\PYGZhy{}node1:9121}\PYG{l+s}{\PYGZsq{}}\PYG{p+pIndicator}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{redis\PYGZhy{}node2:9121}\PYG{l+s}{\PYGZsq{}}\PYG{p+pIndicator}{]}
+\PYG{+w}{    }\PYG{n+nt}{metrics\PYGZus{}path}\PYG{p}{:}\PYG{+w}{ }\PYG{l+lScalar+lScalarPlain}{/scrape}
+\PYG{+w}{    }\PYG{n+nt}{relabel\PYGZus{}configs}\PYG{p}{:}
+\PYG{+w}{      }\PYG{p+pIndicator}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nt}{source\PYGZus{}labels}\PYG{p}{:}\PYG{+w}{ }\PYG{p+pIndicator}{[}\PYG{n+nv}{\PYGZus{}\PYGZus{}address\PYGZus{}\PYGZus{}}\PYG{p+pIndicator}{]}
+\PYG{+w}{        }\PYG{n+nt}{target\PYGZus{}label}\PYG{p}{:}\PYG{+w}{ }\PYG{l+lScalar+lScalarPlain}{instance}
+\end{MintedVerbatim}

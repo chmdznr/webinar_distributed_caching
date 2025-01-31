@@ -1,0 +1,19 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{cachetools}
+
+\PYG{c+c1}{\PYGZsh{} Inisialisasi cache dengan TTL 5 menit}
+\PYG{n}{cache} \PYG{o}{=} \PYG{n}{cachetools}\PYG{o}{.}\PYG{n}{TTLCache}\PYG{p}{(}\PYG{n}{maxsize}\PYG{o}{=}\PYG{l+m+mi}{1000}\PYG{p}{,} \PYG{n}{ttl}\PYG{o}{=}\PYG{l+m+mi}{300}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}product}\PYG{p}{(}\PYG{n}{product\PYGZus{}id}\PYG{p}{)}\PYG{p}{:}
+	\PYG{c+c1}{\PYGZsh{} Cek cache terlebih dahulu}
+	\PYG{n}{product} \PYG{o}{=} \PYG{n}{cache}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n}{product\PYGZus{}id}\PYG{p}{)}
+	\PYG{k}{if} \PYG{n}{product}\PYG{p}{:}
+		\PYG{k}{return} \PYG{n}{product}
+	
+	\PYG{c+c1}{\PYGZsh{} Jika tidak ada di cache, query database}
+	\PYG{n}{product} \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{query\PYGZus{}product}\PYG{p}{(}\PYG{n}{product\PYGZus{}id}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} Simpan ke cache}
+	\PYG{n}{cache}\PYG{p}{[}\PYG{n}{product\PYGZus{}id}\PYG{p}{]} \PYG{o}{=} \PYG{n}{product}
+	\PYG{k}{return} \PYG{n}{product}
+\end{MintedVerbatim}
